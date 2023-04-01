@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+  <script src="js/jquery-3.6.0.min.js" async></script>
+  <link rel="stylesheet" media="screen and (min-width:1000px)" href="css/style_pc.css" />
+  <link rel="stylesheet" media="screen and (max-width:999px)" href="css/style_m.css" />
+  <script>
+    if (window.screen.width >= 1000) {
+      document.write('<script src="js/script_pc.js"><\/script>');
+    }
+    if (window.screen.width < 1000) {
+      document.write('<script src="js/script_m.js"><\/script>');
+    }
+  </script>
+</head>
+
+<body>
+  <header class="cstyle">
+    <div class="headerbox pubCon">
+      <div class="header_logo">
+        <a href="index.html"><img src="src/png/pc/logo.svg" alt="logo"></a>
+      </div>
+      <div class="header_menu" id="right_border">
+        <ul class="flex_row flex_evenly" id="header_ul">
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="profile.html">プロフィール</a></li>
+          <li><a href="#policy_pc">政策</a></li>
+          <li><a href="#blog_pc">活動報告</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </div>
+      <div class="header_sns">
+        <ul class="flex_row flex_align_center">
+          <li><a href="#"><img src="" alt="facebook" id="sns01"></a></li>
+          <li><a href="#"><img src="" alt="instagram" id="sns02"></a></li>
+          <li><a href="#"><img src="" alt="twitter" id="sns03"></a></li>
+          <li><a href="#"><img src="" alt="youtube" id="sns04"></a></li>
+          <li><a href="#"><img src="" alt="line" id="sns05"></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <header class="mstyle" id="m_header">
+    <div class="flex_row flex_between flex_align_center">
+        <div class="m_logo">
+            <a href="index.html">
+                <img src="src/png/m/logo.svg" alt="logo">
+            </a>
+        </div>
+        <div class="m_icon" id="m_icon">
+        </div>
+
+
+    </div>
+</header>
+<section class="mstyle">
+    <section class=" m_menu" id="m_menu">
+        <div class="pubCon_90 m_menu_content">
+            <ul>
+                <li><a href="index.html">トップ</a></li>
+                <li><a href="profile.html">プロフィール</a></li>
+                <li><a href="#policy_m">政策</a></li>
+                <li><a href="#blog_m">活動報告</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <div class="m_menu_bottom pubCon_60">
+            <ul class="flex_row flex_align_center flex_evenly">
+                <li><a href="#"><img src="src/png/m/fb_w.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="src/png/m/ins_w.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="src/png/m/tw_w.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="src/png/m/ytb_w.png" alt="youtube"></a></li>
+                <li><a href="#"><img src="src/png/m/line_w.png" alt="line"></a></li>
+            </ul>
+        </div>
+    </section>
+</section>
+
+  <section class="top cstyle">
+    <div class="top_box">
+      <img class="top_logo" src="src/png/pc/top_logo.png" alt="logo">
+      <img class="top_name" src="src/png/pc/top_name.png" alt="">
+      <img class="top_img" src="src/png/pc/miyakawa.png" alt="">
+      <img class="top_left" src="src/png/pc/top_left.png" alt="">
+      <img class="top_miyakawa" src="src/png/pc/top_miyakawa.png">
+    </div>
+  </section>
+  <section class="top mstyle">
+    <div class="top_box">
+      <img class="top_logo" src="src/png/pc/top_logo.png" alt="logo">
+      <img class="top_name" src="src/png/m/top_name.png" alt="">
+      <img class="top_img" src="src/png/m/miyakawa.png" alt="">
+      <img class="top_left" src="src/jpg/m/top_left.jpg" alt="">
+      <img class="top_miyakawa" src="src/png/m/top_miyakawa.png">
+    </div>
+  </section>
+
+  <section class="topics cstyle">
+    <div class="topics_box">
+      <div class="flex_row flex_align_end">
+        <h1>TOPICS</h1>
+        <span>宮川よしかずについて</span>
+      </div>
+      <div class="flex_row flex_between">
+        <div class="topics_show">
+          <div class="topics_imgshow">
+            <a href="">
+              <img src="src/jpg/pc/topics_01.jpg" alt="">
+            </a>
+          </div>
+          <a class="topics_title" href="">プロフィール</a>
+        </div>
+        <div class="topics_show">
+          <div class="topics_imgshow">
+            <a href="">
+              <img src="src/jpg/pc/topics_02.jpg" alt="">
+            </a>
+          </div>
+          <a class="topics_title" href="">
+            ５つのチャレンジ
+          </a>
+        </div>
+        <div class="topics_show">
+          <div class="topics_imgshow">
+            <a href="">
+              <img src="src/jpg/pc/topics_03.jpg" alt="">
+            </a>
+          </div>
+          <a class="topics_title" href="">
+            活動報告
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="topics mstyle">
+    <div class="topics_box">
+      <div class="flex_column flex_align_center">
+        <h1>TOPICS</h1>
+        <span>宮川よしかずについて</span>
+      </div>
+      <div class="flex_column flex_align_center">
+        <div class="topics_show">
+          <div class="topics_imgshow">
+            <a href="">
+              <img src="src/jpg/pc/topics_01.jpg" alt="">
+            </a>
+          </div>
+          <a class="topics_title" href="">プロフィール</a>
+        </div>
+        <div class="topics_show">
+          <div class="topics_imgshow">
+            <a href="">
+              <img src="src/jpg/pc/topics_02.jpg" alt="">
+            </a>
+          </div>
+          <a class="topics_title" href="">
+            ５つのチャレンジ
+          </a>
+        </div>
+        <div class="topics_show">
+          <div class="topics_imgshow">
+            <a href="">
+              <img src="src/jpg/pc/topics_03.jpg" alt="">
+            </a>
+          </div>
+          <a class="topics_title" href="">
+            活動報告
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="special cstyle">
+    <h1>Special Contents</h1>
+    <div class="special_box flex_column flex_between">
+      <div class="special_show">
+        <a href="">
+          <img src="src/jpg/pc/special_01.jpg" alt="">
+          <p>
+            地域のお悩み解決
+          </p>
+        </a>
+      </div>
+      <div class="special_show">
+        <a href="">
+          <img src="src/jpg/pc/special_02.jpg" alt="">
+          <p>
+            北区イベントに参加
+          </p>
+        </a>
+      </div>
+      <div class="special_show">
+        <a href="">
+          <img src="src/jpg/pc/special_03.jpg" alt="">
+          <p>
+            北区民との交流
+          </p>
+        </a>
+      </div>
+
+
+    </div>
+  </section>
+  <section class="special mstyle">
+    <h1>Special<br />Contents</h1>
+    <div class="special_box flex_column">
+      <div class="special_show">
+        <a href="">
+          <img src="src/jpg/pc/special_01.jpg" alt="">
+          <p>
+            地域のお悩み解決
+          </p>
+        </a>
+      </div>
+      <div class="special_show">
+        <a href="">
+          <img src="src/jpg/pc/special_02.jpg" alt="">
+          <p>
+            北区イベントに参加
+          </p>
+        </a>
+      </div>
+      <div class="special_show">
+        <a href="">
+          <img src="src/jpg/pc/special_03.jpg" alt="">
+          <p>
+            北区民との交流
+          </p>
+        </a>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="blog cstyle" id="blog_pc">
+    <img class="img_title" src="src/png/pc/blog.png" alt="">
+    <div class="blog_box flex_row">
+      <div class="blog_show flex_column">
+        <a href="">
+          <div class="blog_imgshow">
+            <img src="src/jpg/pc/blog_01.jpg" alt="">
+          </div>
+        </a>
+        <div class="blog_textshow">
+          <a href="">
+            <span>
+              2023年3月13日
+            </span>
+          </a>
+          <a href="">
+            <p>
+              【ポスター貼り】私も志新たに！4月16日告示の北区長選挙に立候補を表明された、やまだ加奈子都議...
+            </p>
+          </a>
+        </div>
+
+
+      </div>
+      <div class="blog_show flex_column">
+        <a href="">
+          <div class="blog_imgshow">
+            <img src="src/jpg/pc/blog_02.jpg" alt="">
+          </div>
+        </a>
+        <div class="blog_textshow flex_column">
+          <a href="">
+            <span>
+              2023年3月11日
+            </span>
+          </a>
+          <a href="">
+            <p>
+              本日は、東日本大震災の日。
+            </p>
+          </a>
+        </div>
+
+
+      </div>
+      <div class="blog_show flex_column">
+        <a href="">
+          <div class="blog_imgshow">
+            <img src="src/jpg/pc/blog_03.jpg" alt="">
+          </div>
+        </a>
+        <div class="blog_textshow">
+          <a href=""> <span>
+              2023年3月8日
+            </span></a>
+          <a href="">
+            <p>
+              【北区リサイクラー活動機構　ファイナルステージ　in東京ドームホテル】本日は、地...
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+
+    <a href="#" class="blog_btn_a">
+      <div class="blog_btn flex_row flex_align_center">
+        活動報告一覧へ
+      </div>
+    </a>
+
+
+  </section>
+  <section class="blog mstyle flex_column" id="blog_m">
+    <div class="blog_title"></div>
+    <h1>活動報告</h1>
+    <h2>SNSで配信中</h2>
+    <div class="blog_box flex_column">
+      <div class="blog_show flex_column">
+        <a href="">
+          <div class="blog_imgshow">
+            <img src="src/jpg/m/blog_01.jpg" alt="">
+          </div>
+        </a>
+        <div class="blog_textshow">
+          <a href="">
+            <span>
+              2023年3月13日
+            </span>
+          </a>
+          <a href="">
+            <p>
+              【ポスター貼り】私も志新たに！4月16日告示の北区長選挙に立候補を表明された、やまだ加奈子都議...
+            </p>
+          </a>
+        </div>
+
+
+      </div>
+      <div class="blog_show flex_column">
+        <a href="">
+          <div class="blog_imgshow">
+            <img src="src/jpg/pc/blog_02.jpg" alt="">
+          </div>
+        </a>
+        <div class="blog_textshow flex_column">
+          <a href="">
+            <span>
+              2023年3月11日
+            </span>
+          </a>
+          <a href="">
+            <p>
+              本日は、東日本大震災の日。
+            </p>
+          </a>
+        </div>
+
+
+      </div>
+      <div class="blog_show flex_column">
+        <a href="">
+          <div class="blog_imgshow">
+            <img src="src/jpg/m/blog_03.jpg" alt="">
+          </div>
+        </a>
+        <div class="blog_textshow">
+          <a href=""> <span>
+              2023年3月8日
+            </span></a>
+          <a href="">
+            <p>
+              【北区リサイクラー活動機構　ファイナルステージ　in東京ドームホテル】本日は、地...
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="blog_btn_a">
+      <div class="blog_btn flex_row flex_align_center">
+        活動報告一覧へ
+      </div>
+    </a>
+
+
+  </section>
+
+
+
+  <section class="policy cstyle" id="policy_pc">
+    <img id="policy_title" class="img_title" src="src/png/pc/policy.png" alt="">
+    <div class="policy_box">
+      <img src="src/png/pc/policy_center.png" alt="">
+      <div class="policy_imgshow1">
+        <div class="policy_textshow1" id="policy_textshow1">
+          <h1 data-content="安全・安心・快適な">
+            安全・安心・快適な
+          </h1>
+          <h1 data-content="まちづくり！">
+            まちづくり！
+          </h1>
+          <ul>
+            <li>
+              自然災害への対策強化
+            </li>
+            <li>
+              まちのバイアフリー化、
+              コミュニティーバス利便性強化
+            </li>
+            <li>
+              レンタルサイクルポートの
+              見直し、活性化
+            </li>
+            <li>
+              マルシェの開催、特産物販売等
+              お買い物のしやすいまちへ
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="policy_imgshow2">
+        <div class="policy_textshow2">
+          <ul>
+            <li>
+              水とみどりの美しさを
+              活かしたまちづくり
+            </li>
+            <li>
+              観光スポット、
+              まちおこし企画
+            </li>
+            <li>
+              文豪、歴史的人物に
+              注目したイベント実施
+            </li>
+          </ul>
+          <h1 data-content="北区の魅力発信！">
+            北区の魅力発信！
+          </h1>
+        </div>
+      </div>
+      <div class="policy_imgshow3">
+        <div class="policy_textshow2">
+          <ul>
+            <li>
+              北区伝統芸能の継承
+            </li>
+            <li>
+              北区公共施設による
+              文化芸能活動の振興
+            </li>
+            <li>
+              次世代教育〜「演劇」を
+              通じて子供たちの育成向上
+            </li>
+          </ul>
+          <h1 data-content="笑顔プロジェクト！">
+            笑顔プロジェクト！
+          </h1>
+        </div>
+      </div>
+      <div class="policy_imgshow4">
+        <div class="policy_textshow2">
+          <ul>
+            <li>
+              ファミリー世代への
+              住宅支援策の充実化
+            </li>
+            <li>
+              待機児童、
+              保育環境問題支援
+            </li>
+            <li>
+              子育て世代を孤立に
+              させない地域の絆づくり
+            </li>
+          </ul>
+          <h1 data-content="子育て世代を応援！">
+            子育て世代を応援！
+          </h1>
+        </div>
+      </div>
+      <div class="policy_imgshow5">
+        <div class="policy_textshow2">
+          <ul>
+            <li>
+              仕事リタイア後の
+              生きがいづくり支援
+            </li>
+            <li>
+              健康寿命を延ばす
+              コミュニティ強化
+            </li>
+            <li>
+              お年寄りの見回りや
+              生活サポート
+            </li>
+          </ul>
+          <h1 data-content="シニア世代を元気に！">
+            シニア世代を元気に！
+          </h1>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="policy_btn" id="policy_btn">
+      <a href="#" class="blog_btn_a">
+        <div class="blog_btn flex_row flex_align_center">
+          宮川よしかず<br />
+          プロフィール
+        </div>
+      </a>
+    </div>
+
+  </section>
+  <section class="policy mstyle" id="policy_m">
+    <div class="policy_title"></div>
+    <h1 class="policy_h1">政策</h1>
+    <h2 class="policy_h2">〜 宮川よしかずチャレンジ５ 〜</h2>
+    <div class="policy_box flex_column pubCon flex_align_center">
+      <div class="policy_imgshow1">
+        <div class="policy_textshow1" id="policy_textshow1">
+          <h1 data-content="安全・安心・快適な">
+            安全・安心・快適な
+          </h1>
+          <h1 data-content="まちづくり！">
+            まちづくり！
+          </h1>
+          <ul>
+            <li>
+              自然災害への対策強化
+            </li>
+            <li>
+              まちのバイアフリー化、
+              コミュニティーバス利便性強化
+            </li>
+            <li>
+              レンタルサイクルポートの
+              見直し、活性化
+            </li>
+            <li>
+              マルシェの開催、特産物販売等
+              お買い物のしやすいまちへ
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="policy_imgshow2">
+        <div class="policy_textshow2">
+          <ul>
+            <li>
+              仕事リタイア後の
+              生きがいづくり支援
+            </li>
+            <li>
+              健康寿命を延ばす
+              コミュニティ強化
+            </li>
+            <li>
+              お年寄りの見回りや
+              生活サポート
+            </li>
+          </ul>
+          <h1 data-content="シニア世代を元気に！">
+            シニア世代を元気に！
+          </h1>
+        </div>
+
+      </div>
+      <img src="src/png/pc/policy_center.png" alt="">
+
+      <div class="policy_imgshow3">
+
+        <div class="policy_textshow2">
+          <ul>
+            <li>
+              水とみどりの美しさを
+              活かしたまちづくり
+            </li>
+            <li>
+              観光スポット、
+              まちおこし企画
+            </li>
+            <li>
+              文豪、歴史的人物に
+              注目したイベント実施
+            </li>
+          </ul>
+          <h1 data-content="北区の魅力発信！">
+            北区の魅力発信！
+          </h1>
+        </div>
+      </div>
+      <div class="policy_imgshow4">
+        <div class="policy_textshow2">
+          <ul>
+            <li>
+              ファミリー世代への
+              住宅支援策の充実化
+            </li>
+            <li>
+              待機児童、
+              保育環境問題支援
+            </li>
+            <li>
+              子育て世代を孤立に
+              させない地域の絆づくり
+            </li>
+          </ul>
+          <h1 data-content="子育て世代を応援！">
+            子育て世代を応援！
+          </h1>
+        </div>
+      </div>
+      <div class="policy_imgshow5">
+        <div class="policy_textshow2">
+          <ul>
+            <li>
+              北区伝統芸能の継承
+            </li>
+            <li>
+              北区公共施設による
+              文化芸能活動の振興
+            </li>
+            <li>
+              次世代教育〜「演劇」を
+              通じて子供たちの育成向上
+            </li>
+          </ul>
+          <h1 data-content="笑顔プロジェクト！">
+            笑顔プロジェクト！
+          </h1>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="policy_btn" id="policy_btn">
+      <a href="#" class="blog_btn_a">
+        <div class="blog_btn flex_row flex_align_center">
+          宮川よしかず<br />
+          プロフィール
+        </div>
+      </a>
+    </div>
+
+  </section>
+
+  <section class="fanclub cstyle">
+    <img class="fanclub_title img_title" src="src/png/pc/aboutus.png" alt="">
+    <div class="fanclub_box flex_row flex_align_center">
+      <div class="fanclub_icon">
+
+      </div>
+      <p>
+        宮川よしかず後援会
+      </p>
+      <a href="#" class="blog_btn_a fanclub_btn">
+        <div class="blog_btn flex_row flex_align_center">
+          ご入会はこちら
+        </div>
+      </a>
+    </div>
+    <div class="about_us">
+      <div class="flex_row about_us_title">
+        <div class="fanclub_icon">
+
+        </div>
+        <p>
+          私たちも応援します！
+        </p>
+      </div>
+
+
+      <div class="about_us_show flex_row flex_align_start pubCon">
+        <img src="src/jpg/pc/us_01.jpg" alt="">
+        <div class="flex_column us_name">
+          <h1>
+            衆議院議員（自由民主党北区総支部長）
+          </h1>
+          <span>
+            高木けい
+          </span>
+        </div>
+        <p>
+          「あふれる情熱に期待します」
+          世の矛盾とその体験こそが、人生の宝石を見つける手がかりになると思います。芸能という世界で、弱者を思いやる労（ねぎら）うことを実践してきました。その経験を生かし北区の魅力を充分に発信して頂きたい！宮川よしかず君の笑顔は、人を幸せに導くエネルギーがあります。私も全力で応援します！
+        </p>
+      </div>
+      <div class="about_us_show flex_row flex_align_start pubCon">
+        <img src="src/jpg/pc/us_02.jpg" alt="">
+        <div class="flex_column us_name">
+          <h1>
+            東京都議会議員
+          </h1>
+          <span>
+            やまだ加奈子
+          </span>
+        </div>
+        <p>
+          「地域の代弁者として」
+          より豊かな北区づくりには、地元に寄り添い、そのお声や想いを区政に届ける地域の代弁者が必要です。地元生まれ地元育ち、地元をよく知り、厳しい芸能の世界で豊かな経験を積んでこられた、発信力と行動力の宮川よしかずさん。愛する地域、北区の発展に向け区政と都政の連携で共に働ける宮川よしかずさんを全力で応援します。
+        </p>
+      </div>
+    </div>
+
+  </section>
+  <section class="fanclub mstyle">
+    <div class="fanclub_title"></div>
+    <h1 class="fanclub_h1">応援する</h1>
+    <h2 class="fanclub_h2">後援会入会のご案内</h2>
+    <h2 class="fanclub_h3">宮川よしかず後援会</h3>
+      <a href="#" class="blog_btn_a fanclub_btn">
+        <div class="blog_btn flex_row flex_align_center">
+          ご入会はこちら
+        </div>
+      </a>
+
+      <div class="about_us">
+        <h1 class="about_us_title">
+          私たちも応援します！
+        </h1>
+        <div class="about_us_member flex_column  pubCon">
+          <div class="about_us_name flex_row flex_align_start">
+            <img src="src/jpg/pc/us_01.jpg" alt="">
+            <div class="flex_column">
+              <h1>
+                衆議院議員<br />
+                （自由民主党北区総支部長）
+              </h1>
+              <span>
+                高木けい
+              </span>
+            </div>
+          </div>
+          <div class="about_us_text">
+            <p>
+              「あふれる情熱に期待します」
+              世の矛盾とその体験こそが、人生の宝石を見つける手がかりになると思います。芸能という世界で、弱者を思いやる労（ねぎら）うことを実践してきました。その経験を生かし北区の魅力を充分に発信して頂きたい！宮川よしかず君の笑顔は、人を幸せに導くエネルギーがあります。私も全力で応援します！
+            </p>
+          </div>
+        </div>
+        <div class="about_us_member flex_column  pubCon">
+          <div class="about_us_name flex_row flex_align_start">
+            <img src="src/jpg/pc/us_02.jpg" alt="">
+            <div class="flex_column">
+              <h1>
+                東京都議会議員
+              </h1>
+              <span>
+                やまだ加奈子
+              </span>
+            </div>
+          </div>
+          <div class="about_us_text">
+            <p>
+              「地域の代弁者として」
+              より豊かな北区づくりには、地元に寄り添い、そのお声や想いを区政に届ける地域の代弁者が必要です。地元生まれ地元育ち、地元をよく知り、厳しい芸能の世界で豊かな経験を積んでこられた、発信力と行動力の宮川よしかずさん。愛する地域、北区の発展に向け区政と都政の連携で共に働ける宮川よしかずさんを全力で応援します。
+            </p>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      </div>
+
+  </section>
+
+  <section class="bottom cstyle">
+    <div class="bottom_box">
+      <div class="bottom_content flex_row">
+        <div class="bottom_imgbox">
+          <img class="bottom_img1" src="src/png/pc/bottom_logo.png" alt="">
+          <img class="bottom_img2" src="src/jpg/m/mayakawa_02.jpg" alt="">
+        </div>
+        <div class="bottom_contentbox flex_column">
+          <div class="flex_row">
+            <div class="bottom_content1">
+              <span>
+                生まれも育ちも「北区」です！
+              </span>
+              <p>
+                昭和45年 北区生まれ 滝野川在住<br />
+                石川幼稚園・滝野川第三小・滝野川中・東洋高校卒業。<br />
+                幼少期より飛鳥太鼓の一員として北区のイベント等に参加。<br />
+                在学時より芸名「鼓太郎」として数多くのテレビ番組に出演。
+              </p>
+              <h1>
+                経歴
+              </h1>
+              <ul>
+                <li>衆議院議員 高木けい秘書</li>
+                <li>北区飛鳥太鼓副会長</li>
+                <li>滝野川消防団 団長</li>
+                <li>自民党政経塾出身</li>
+              </ul>
+            </div>
+            <div class="bottom_content2">
+              <ul>
+                <li>資格</li>
+                <li>調理師免許 / アロマセラピスト</li>
+                <li>心理カウンセラー実務者研修終了</li>
+                <li>同行援護 / 行動援護 / 介護事務</li>
+                <li>レクリエーション介護士二級</li>
+                <li>福祉用具販売相談員 / 応急救命</li>
+                <li>eco検定合格</li>
+                <li>大型自動二輪免許</li>
+                <li>普通自動車２種免許</li>
+                <li>中型自動二輪免許</li>
+                <li>小型船舶一級</li>
+                <li>PADIオープンウォーター</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footerbox">
+            <div class="footer_menu">
+              <ul class="flex_row flex_evenly">
+                <li><a href="index.html">トップ</a></li>
+                <li><a href="profile.html">プロフィール</a></li>
+                <li><a href="#policy_pc">政策</a></li>
+                <li><a href="#blog_pc">活動報告</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+              </ul>
+            </div>
+            <div class="footer_sns">
+              <ul class="flex_row flex_align_center">
+                <li><a href="#"><img src="" alt="facebook" id="sns01"></a></li>
+                <li><a href="#"><img src="" alt="instagram" id="sns02"></a></li>
+                <li><a href="#"><img src="" alt="twitter" id="sns03"></a></li>
+                <li><a href="#"><img src="" alt="youtube" id="sns04"></a></li>
+                <li><a href="#"><img src="" alt="line" id="sns05"></a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="bottom mstyle">
+
+    <div class="bottom_box">
+      <div class="bottom_imgbox flex_column">
+        <img src="src/png/m/bottom_logo.png" alt="">
+        <img src="src/jpg/m/mayakawa_02.jpg" alt="">
+      </div>
+    </div>
+    <div class="bottom_contentbox flex_column pubCon">
+      <span>
+        生まれも育ちも「北区」です！
+      </span>
+      <p>
+        昭和45年 北区生まれ 滝野川在住<br />
+        石川幼稚園・滝野川第三小・滝野川中・東洋高校卒業。<br />
+        幼少期より飛鳥太鼓の一員として北区のイベント等に参加。<br />
+        在学時より芸名「鼓太郎」として数多くのテレビ番組に出演。
+      </p>
+      <h1>
+        経歴
+      </h1>
+      <ul>
+        <li>衆議院議員 高木けい秘書</li>
+        <li>北区飛鳥太鼓副会長</li>
+        <li>滝野川消防団 団長</li>
+        <li>自民党政経塾出身</li>
+      </ul>
+      <h1>
+        資格
+      </h1>
+      <ul>
+        <li>調理師免許 / アロマセラピスト</li>
+        <li>心理カウンセラー実務者研修終了</li>
+        <li>同行援護 / 行動援護 / 介護事務</li>
+        <li>レクリエーション介護士二級</li>
+        <li>福祉用具販売相談員 / 応急救命</li>
+        <li>eco検定合格</li>
+        <li>大型自動二輪免許</li>
+        <li>普通自動車２種免許</li>
+        <li>中型自動二輪免許</li>
+        <li>小型船舶一級</li>
+        <li>PADIオープンウォーター</li>
+      </ul>
+    </div>
+    <div class="footerbox">
+      <div class="footer_menu">
+        <div class="flex_row flex_between">
+          <a href="index.html">トップ</a>
+          <a href="profile.html">プロフィール</a>
+          <a href="#policy_m">政策</a>
+        </div>
+        <div class="flex_row flex_evenly">
+          <a href="#blog_m">活動報告</a>
+          <a href="#">お問い合わせ</a>
+        </div>
+        <div class="flex_row flex_evenly">
+          <a href="#"><img src="src/png/m/fb_w.png" alt="facebook"></a>
+          <a href="#"><img src="src/png/m/ins_w.png" alt="instagram"></a>
+          <a href="#"><img src="src/png/m/tw_w.png" alt="twitter"></a>
+          <a href="#"><img src="src/png/m/ytb_w.png" alt="youtube"></a>
+          <a href="#"><img src="src/png/m/line_w.png" alt="line"></a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+  </section>
+
+  <footer class="cstyle">
+    <div class="footer_box">
+      <div class="flex_column">
+        <div class="flex_row">
+          <a href="" class="foot_a1">このサイトについて</a>
+          <a href="" class="foot_a2">個人情報保護方針</a>
+        </div>
+        <p>Copyright (c) 2023 Yoshikazu Miyakawa All Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="mstyle">
+    <div class="footer_box">
+      <div class="flex_column">
+        <div class="footer_a flex_row flex_between">
+          <a href="" class="foot_a1">このサイトについて</a>
+          <a href="" class="foot_a2">個人情報保護方針</a>
+        </div>
+        <p>Copyright (c) 2023 Yoshikazu Miyakawa All Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
